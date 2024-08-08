@@ -1,0 +1,175 @@
+*{
+    text-decoration: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+body{
+    background: black;
+    color: white;
+}
+
+.navbar{
+    background: black; 
+    font-family: calibri; 
+    padding-right: 15px;
+    padding-left: 100px;
+    display: block;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navdiv ul{
+    padding-left: 400px;
+}
+.navdiv li{
+    list-style: none;
+    display: inline-block;
+}
+.navdiv a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 30px;
+    transition: 0.2s;
+}
+li a:hover{
+    color: red;
+    /* transform: scale(1.1); */
+}
+    
+
+.section{
+    background-color: rgba(53, 47, 47, 0.455);
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    margin: 0rem auto 0 auto;
+}
+.section image{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+.section h2{
+    margin: 0;
+    color: rgb(234, 168, 3);
+    font-size: 26px;
+    font-weight: bold;
+}
+.section p{
+    color: rgba(232, 190, 112, 0.83);
+    margin-left: 15px;
+}
+
+
+.banner-card{
+    position: relative;
+}
+.banner-card img{
+    max-width: 100%;
+    height: 50%;
+    margin-left: 5%;
+}
+.banner-text{
+    position: absolute;
+    top: 25%;
+    color: black;
+    padding: 10px;
+}
+.banner-text h4{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darkgreen;
+    margin-bottom: 5px;
+    margin-left: 75px;
+}
+.banner-text p{
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 75px;
+}
+.text{
+    font-size: medium;
+    color: lightgray;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgba(250, 212, 141, 0.793);
+    color: black;
+    width: 350px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image{
+    background-color: white;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius:15px 15px 0 0;
+}
+.cheese{
+    background-image: url(images/cheese.jpg);
+}
+.yoghurt{
+    background-image: url(images/yoghurt.jpg);
+}
+.milk-packet{
+    background-image: url(images/milk\ packet.jpg);
+}
+.butter{
+    background-image: url(images/butter.jpg);
+}
+.ice-cream{
+    background-image: url(images/ice\ cream.jpg);
+}
+.fresh-milk{
+    background-image: url(images/fresh\ milk.jpg);
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color: none;
+    color: white;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    margin: 15px 50px;
+    text-decoration: none;
+}
+.card:hover{
+    background-color:rgb(133, 97, 6);
+    color: whitesmoke;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+button{
+    border: 1px solid black;
+    background: green;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    transition: 0.1s; 
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background: red;
+}

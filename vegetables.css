@@ -1,0 +1,129 @@
+*{
+    text-decoration: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+body{
+    background: black;
+    color: white;
+    width: auto;
+}
+
+
+.navbar{
+    background: black; 
+    font-family: calibri; 
+    padding-right: 15px;
+    padding-left: 100px;
+    display: block;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navdiv ul{
+    padding-left: 400px;
+}
+.navdiv li{
+    list-style: none;
+    display: inline-block;
+}
+.navdiv a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 30px;
+    transition: 0.2s;
+}
+li a:hover{
+    color: red;
+    /* transform: scale(1.1); */
+}
+
+
+.section{
+    background-color: rgba(53, 47, 47, 0.455);
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
+    margin: 0rem auto 0 auto;
+}
+.section image{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;  
+}
+.section h2{
+    margin: 0;
+    color: rgb(24, 204, 24);
+    font-size: 26px;
+    font-weight: bold;
+}
+.section p{
+    color: rgb(54, 133, 54);
+    margin-left: 15px;
+}
+
+
+.container{
+    background: black;
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+.container .heading{
+    text-align: center;
+    padding-bottom: 10px;
+    color: wheat;
+    text-shadow: 0 5px 10px rgb(0,0,0,.2);
+    font-size: 25px;
+}
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+}
+.container .box-container .box{
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+    padding: 10px 10px;
+}
+.container .box-container .box img{
+    height: 100px;
+    border-radius: 10px;
+}
+.container .box-container .box h3{
+    color: black;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.container .box-container .box p{
+    color: black;
+    font-size: 15px;
+    line-height: 1.8;
+}
+button{
+    border: 1px solid black;
+    background: green;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    transition: 0.1s;    
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background: red;
+}
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.2);   
+}
+@media(max-width:500px){
+    .container{
+        padding: 20px;
+    }
+}

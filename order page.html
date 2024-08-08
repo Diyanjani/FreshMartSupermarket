@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="order page.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png" type="x-icon">
+    <title>FreshMart/order page</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Customer Information</h2>
+        <form action="#">
+            <div class="customer information">
+                <div class="user-input-box">
+                    <label for="fullname">Full name</label>
+                    <input type="text"
+                           id="fullname"
+                           name="fullname"/>
+                </div>
+
+                <div class="user-input-box">
+                    <label for="email">Email Address</label>
+                    <input type="email"
+                           id="email"
+                           name="email"/>
+                </div>
+
+                <div class="user-input-box">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel"
+                           id="phone"
+                           name="phone"/>
+                </div>
+
+                <div class="user-input-box">
+                    <label for="address">Address:</label>
+                    <input type="address"
+                           id="address"
+                           name="address"
+                           rows="3"/>
+                </div>
+            </div>
+        
+            <h2>Payment Details</h2>
+            <div class="Payment Details">
+                <div class="user-input-box">
+                    <label for="product name">Product Name</label>
+                    <input type="text"
+                           id="productname"
+                           name="productname"/>
+                </div>
+
+                <div class="user-input-box">
+                    <label for="Quantity">Quantity</label>
+                    <input type="q"
+                           id="quantity"
+                           name="quantity"/>
+                </div>
+
+                <div class="user-input-box">
+                    <label for="total price">Total Price</label>
+                    <input type="number"
+                           id="phone"
+                           name="phone"/>
+                </div>
+                   
+                <div class="payment method">
+                    <div class="user-input-box">
+                        <label for="store">Select the Payment Method:</label>
+                        <select id="payment" name="payment">
+                            <option value="">Select</option>
+                            <option value="cod">COD</option>
+                            <option value="credit/debit">Credit or Debit Card</option>
+                            <option value="PayPal">PayPal</option>
+                            <option value="shopify">Shopify</option>
+                        </select>
+                    </div>
+                </div>
+                         
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

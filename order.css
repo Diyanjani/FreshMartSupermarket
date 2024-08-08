@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background: url(images/op.jpeg);
+    background-size: cover;
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: 100vh; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-container {
+    background: rgba(0, 0, 0, 0.704);
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 20px white;
+}
+
+.order-container {
+    background: transparent; 
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 20px white;
+    background:  rgba(0, 0, 0, 0.704);
+}
+
+.form-container h2,
+.order-container h2 {
+    color: white;
+    text-align: center;
+}
+
+.customer-information,
+.delivery-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+.user-input-box {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.user-input-box label {
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.user-input-box input {
+    width: 100%;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.order-table {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.order-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-table th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.total-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+.order-table-button{
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+}
+.order-table-button button{
+    text-align: center;
+    width: 100%;
+    margin: 15px;
+    padding: 10px 10px;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 18px;
+    border-color: transparent;
+    color: white;
+    border-radius: 30px;
+}
+
+.order-table-button button:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+    background-color: green;
+    color: black;
+}
+.order-table-button button:not(:hover){
+    transition: 0.3s ease;
+}
